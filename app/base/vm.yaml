@@ -109,7 +109,7 @@ spec:
           resources:
               requests:
                   # Modify this to match requirements for your environment
-                  storage: 10Gi
+                  storage: 35Gi
   - metadata:
       name: es-master00-data
       namespace: elasticsearch-demo-app
